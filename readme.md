@@ -15,11 +15,18 @@ Your directory will be like:
 
 5. Set up compiler by following steps
 * Click Settings -> Compiler 
-* Select Global compiler settings -> Click Toolchain executables -> Click ... to select MinGW folder -> Click OK
-for example:
-```
-C:\Users\User\Desktop\final_project_bundle\Final_project_template\MinGW
-```
+* Select Global compiler settings -> Click Toolchain executables -> Click ... to select MinGW folder -> Click OK  
+    * for example:
+    ```
+    C:\Users\User\Desktop\final_project_bundle\Final_project_template\MinGW
+    ```
 
 6. Open a new project and set compiler setting
 * You can read Allegro_install.pdf for more details.
+* Put all files in Demo/* to the location where your project.cbp is.
+
+Your directory will be like:
+<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/dir.jpg" width="400" height="150" alt="syslog"/><br/>
+
+
+
