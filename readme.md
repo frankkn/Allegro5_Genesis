@@ -1,9 +1,11 @@
 # Allegro5 Genesis
 
-Final project for 11120CS135500 of NTHU.
+Final project for 11120CS135500 of NTHU.  
 Demo Date: 2023/06/19
 
 ## Game video
+
+* Click below image to watch the game video !
 
 [![Demo Video](https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot0.jpg)](https://youtu.be/LU_suTqQsG4)
 
