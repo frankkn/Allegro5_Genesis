@@ -11,13 +11,13 @@ Demo Date: 2023/06/19
 
 ## Game screenshots
 
-<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot1.jpg" width="600" height="150" alt="syslog"/><br/>
+<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot1.png" width="600" height="150" alt="syslog"/><br/>
 
-<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot2.jpg" width="600" height="150" alt="syslog"/><br/>
+<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot2.png" width="600" height="150" alt="syslog"/><br/>
 
-<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot3.jpg" width="600" height="150" alt="syslog"/><br/>
+<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot3.png" width="600" height="150" alt="syslog"/><br/>
 
-<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot4.jpg" width="600" height="150" alt="syslog"/><br/>
+<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot4.png" width="600" height="150" alt="syslog"/><br/>
 
 ## Set up environment 
 
