@@ -3,6 +3,11 @@
 Final project for 11120CS135500 of NTHU.
 Demo Date: 2023/06/19
 
+## Game video
+
+[![Demo Video](https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot0.jpg)](https://youtu.be/LU_suTqQsG4)
+
+
 ## Set up environment 
 
 1. Download CodeBlocks 20.03 
@@ -26,7 +31,7 @@ Your directory will be like:
 * Put all files in Demo/* to the location where your project.cbp is.
 
 Your directory will be like:  
-<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/projectCBP.jpg" width="400" height="150" alt="syslog"/><br/>
+<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/projectCBP.jpg" width="600" height="150" alt="syslog"/><br/>
 
 
 
