@@ -9,7 +9,7 @@ Demo Date: 2023/06/19
 
 [![Demo Video](https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot0.jpg)](https://youtu.be/LU_suTqQsG4)
 
-## Game screen shot
+## Game screenshots
 
 <img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/screenshot1.jpg" width="600" height="150" alt="syslog"/><br/>
 
