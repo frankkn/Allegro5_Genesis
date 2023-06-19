@@ -36,7 +36,7 @@ int main(){
 
     ALLEGRO_FONT* font = al_load_ttf_font("font/pirulen.ttf", 50, 0);
     al_draw_text(font, al_map_rgb(255, 255, 255), GAME_WIDTH/2-180, GAME_HEIGHT/2,
-                  0, "Loading...");
+                  0, "Loading");
     al_flip_display();
 
     al_reserve_samples(10);

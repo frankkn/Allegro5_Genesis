@@ -13,7 +13,7 @@ ALLEGRO_EVENT_QUEUE *event_queue = NULL;
 ALLEGRO_DISPLAY *display = NULL;
 bool TEST_MODE = false;
 
-const int menu_FPS = 20;
+const int menu_FPS = 15;
 int window = 1;
 int status = 1;
 ALLEGRO_TIMER *menu_timer = NULL;

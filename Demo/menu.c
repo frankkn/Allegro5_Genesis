@@ -1,7 +1,7 @@
 #include "menu.h"
 
 ALLEGRO_FONT *font = NULL;
-ALLEGRO_BITMAP *menu_background = NULL, *choose = NULL;
+ALLEGRO_BITMAP *menu_background = NULL, *choose = NULL, *name = NULL;
 int choose_x, choose_y;
 
 ALLEGRO_AUDIO_STREAM *menuMusic;
@@ -10,6 +10,7 @@ void menu_init()
 {
     font = al_load_ttf_font("./font/pirulen.ttf",24,0);
     menu_background = al_load_bitmap("./image/background.png");
+    name = al_load_bitmap("./image/name.png");
     choose_init();
 
     menuMusic = al_load_audio_stream("music/menuMusic.mp3", 2, 2048);
@@ -52,9 +53,16 @@ void menu_draw()
                           al_get_bitmap_width(menu_background),
                           al_get_bitmap_height(menu_background),
                           0, 0, GAME_WIDTH, GAME_HEIGHT, 0);
+    al_draw_scaled_bitmap(name, 0, 0,
+                          al_get_bitmap_width(name),
+                          al_get_bitmap_height(name),
+                          GAME_WIDTH/2-240, GAME_HEIGHT/2-250, 500, 120, 0);
+
     al_draw_text(font, al_map_rgb(255,255,255), GAME_WIDTH/2, GAME_HEIGHT/2+220 , ALLEGRO_ALIGN_CENTRE, "start");
     al_draw_text(font, al_map_rgb(255,255,255), GAME_WIDTH/2, GAME_HEIGHT/2+260 , ALLEGRO_ALIGN_CENTRE, "about");
     al_draw_text(font, al_map_rgb(255,255,255), GAME_WIDTH/2, GAME_HEIGHT/2+300 , ALLEGRO_ALIGN_CENTRE, "quit");
+    al_draw_text(font, al_map_rgb(255,255,255), GAME_WIDTH/2, GAME_HEIGHT/2+400 , ALLEGRO_ALIGN_CENTRE,
+                 "Designed by Frank Yang and Joe Gu.");
     choose_draw();
     if(TEST_MODE) al_draw_filled_circle(GAME_WIDTH/2, GAME_HEIGHT/2, 200, al_map_rgb(255,0,0));
 }
@@ -64,6 +72,7 @@ void menu_destroy()
 {
     al_destroy_font(font);
     al_destroy_bitmap(menu_background);
+    al_destroy_bitmap(name);
     choose_destroy();
 
     al_set_audio_stream_playing(menuMusic, false);
