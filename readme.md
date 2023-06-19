@@ -25,8 +25,8 @@ Your directory will be like:
 * You can read Allegro_install.pdf for more details.
 * Put all files in Demo/* to the location where your project.cbp is.
 
-Your directory will be like:
-<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/dir.jpg" width="400" height="150" alt="syslog"/><br/>
+Your directory will be like:  
+<img src="https://github.com/frankkn/Allegro5-Genesis/blob/master/screen_shot/projectCBP.jpg" width="400" height="150" alt="syslog"/><br/>
 
 
 
